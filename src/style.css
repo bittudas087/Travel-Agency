@@ -1,0 +1,101 @@
+/* Logo image styling */
+.logo-img {
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa url('../Images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+header, header h1, header p {
+    font-family: 'Montserrat', Arial, sans-serif !important;
+}
+
+header {
+    background: yellow;
+    color: red;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+nav {
+    background: #334155;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+h2 {
+    color: #1e293b;
+}
+
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.tour-card {
+    flex: 1 1 250px;
+    background: #f1f5f9;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid #cbd5e1;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    background: #1e293b;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #334155;
+    color: #fff;
+    margin-top: 2rem;
+}

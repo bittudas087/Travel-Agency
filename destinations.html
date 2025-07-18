@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Destinations | Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f8fb; }
+        header { background: #2d6cdf; color: #fff; padding: 20px 0; text-align: center; }
+        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+        h2 { color: #2d6cdf; }
+        .destinations { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            width: 320px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-5px) scale(1.03);}
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-body { padding: 18px; }
+        .card-title { font-size: 1.3em; margin: 0 0 10px; }
+        .card-text { color: #555; font-size: 1em; }
+        .btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 18px;
+            background: #2d6cdf;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: #1a4fa0; }
+        footer { text-align: center; padding: 20px 0; background: #e9eef6; color: #555; margin-top: 40px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="display:inline-block; vertical-align:middle; margin:0;">Explore Our Top Destinations</h1>
+        <p>Your adventure starts here!</p>
+    </header>
+    <div class="container">
+        <h2>Popular Destinations</h2>
+        <div class="destinations">
+            <div class="card">
+                <img src="images/paris.jpg" alt="Paris">
+                <div class="card-body">
+                    <h3 class="card-title">Paris, France</h3>
+                    <p class="card-text">Experience the romance of the Eiffel Tower, world-class cuisine, and vibrant culture in the heart of France.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bali.jpg" alt="Bali">
+                <div class="card-body">
+                    <h3 class="card-title">Bali, Indonesia</h3>
+                    <p class="card-text">Relax on stunning beaches, explore lush jungles, and immerse yourself in Balinese traditions and hospitality.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/newyork.jpg" alt="New York">
+                <div class="card-body">
+                    <h3 class="card-title">New York, USA</h3>
+                    <p class="card-text">Discover the city that never sleeps, from iconic landmarks to world-famous shopping and entertainment.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/rome.jpg" alt="Rome">
+                <div class="card-body">
+                    <h3 class="card-title">Rome, Italy</h3>
+                    <p class="card-text">Walk through history with ancient ruins, breathtaking art, and delicious Italian cuisine in the Eternal City.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Maa Tara Tour & Travel Agency. All rights reserved.
+    </footer>
+</body>
+</html>
